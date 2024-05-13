@@ -11,6 +11,8 @@ func numberReducer(state: NumberState?, action: Action) -> NumberState {
     var state = state ?? initialNumberState()
 
     switch action {
+    case let action as UpdateNumber:
+        state.number = action.number
     case is IncrementNumber:
         state.number += 1
     case is DecreaseNumber:

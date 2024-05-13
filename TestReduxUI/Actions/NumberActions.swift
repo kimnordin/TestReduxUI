@@ -7,6 +7,10 @@
 
 import ReduxUI
 
+struct UpdateNumber: Action {
+    let number: Int
+}
+
 struct IncrementNumber: Action {
     let add: Int
 }
