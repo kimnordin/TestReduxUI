@@ -7,10 +7,10 @@
 
 import ReduxUI
 
-func appReducer(state: AppState?, action: Action) -> AppState {
+func appReducer(action: Action, state: AppState?) -> AppState {
     var state = state ?? initialAppState()
     
-    return AppState(numberState: numberReducer(state: state.numberState, action: action))
+    return AppState(numberState: numberReducer(action: action, state: state.numberState))
 }
         
 func initialAppState() -> AppState {

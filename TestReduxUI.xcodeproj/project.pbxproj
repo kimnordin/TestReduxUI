@@ -11,12 +11,12 @@
 		F2A071C62BF2B1D40087271B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A071C52BF2B1D40087271B /* MainView.swift */; };
 		F2A071C82BF2B1D60087271B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A071C72BF2B1D60087271B /* Assets.xcassets */; };
 		F2A071CB2BF2B1D60087271B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A071CA2BF2B1D60087271B /* Preview Assets.xcassets */; };
-		F2A071D32BF2B2050087271B /* ReduxUI in Frameworks */ = {isa = PBXBuildFile; productRef = F2A071D22BF2B2050087271B /* ReduxUI */; };
 		F2A071D92BF2B2540087271B /* NumberActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A071D82BF2B2540087271B /* NumberActions.swift */; };
 		F2A071DB2BF2B2B30087271B /* NumberReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A071DA2BF2B2B30087271B /* NumberReducer.swift */; };
 		F2A071DD2BF2B41C0087271B /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A071DC2BF2B41C0087271B /* AppReducer.swift */; };
 		F2A071DF2BF2B42A0087271B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A071DE2BF2B42A0087271B /* AppState.swift */; };
 		F2A071E12BF2B45B0087271B /* NumberState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A071E02BF2B45B0087271B /* NumberState.swift */; };
+		F2A071E52BF2C2140087271B /* ReduxUI in Frameworks */ = {isa = PBXBuildFile; productRef = F2A071E42BF2C2140087271B /* ReduxUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A071D32BF2B2050087271B /* ReduxUI in Frameworks */,
+				F2A071E52BF2C2140087271B /* ReduxUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +133,7 @@
 			);
 			name = TestReduxUI;
 			packageProductDependencies = (
-				F2A071D22BF2B2050087271B /* ReduxUI */,
+				F2A071E42BF2C2140087271B /* ReduxUI */,
 			);
 			productName = TestReduxUI;
 			productReference = F2A071C02BF2B1D40087271B /* TestReduxUI.app */;
@@ -164,7 +164,7 @@
 			);
 			mainGroup = F2A071B72BF2B1D40087271B;
 			packageReferences = (
-				F2A071D12BF2B2050087271B /* XCRemoteSwiftPackageReference "ReduxUI" */,
+				F2A071E32BF2C2140087271B /* XCRemoteSwiftPackageReference "ReduxUI" */,
 			);
 			productRefGroup = F2A071C12BF2B1D40087271B /* Products */;
 			projectDirPath = "";
@@ -408,7 +408,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F2A071D12BF2B2050087271B /* XCRemoteSwiftPackageReference "ReduxUI" */ = {
+		F2A071E32BF2C2140087271B /* XCRemoteSwiftPackageReference "ReduxUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/kimnordin/ReduxUI";
 			requirement = {
@@ -419,9 +419,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F2A071D22BF2B2050087271B /* ReduxUI */ = {
+		F2A071E42BF2C2140087271B /* ReduxUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F2A071D12BF2B2050087271B /* XCRemoteSwiftPackageReference "ReduxUI" */;
+			package = F2A071E32BF2C2140087271B /* XCRemoteSwiftPackageReference "ReduxUI" */;
 			productName = ReduxUI;
 		};
 /* End XCSwiftPackageProductDependency section */

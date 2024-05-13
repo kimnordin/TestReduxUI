@@ -7,7 +7,7 @@
 
 import ReduxUI
 
-func numberReducer(state: NumberState?, action: Action) -> NumberState {
+func numberReducer(action: Action, state: NumberState?) -> NumberState {
     var state = state ?? initialNumberState()
 
     switch action {

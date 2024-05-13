@@ -9,7 +9,7 @@ import SwiftUI
 import ReduxUI
 
 struct MainView: View {
-    @EnvironmentObject var store: Store<AppState>
+    @EnvironmentObject private var store: Store<AppState>
     @State private var temporaryNumber: Int = 0
     
     var body: some View {
