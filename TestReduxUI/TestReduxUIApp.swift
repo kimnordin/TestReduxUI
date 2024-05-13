@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import ReduxUI
+
+let store = Store<AppState>(state: initialAppState(), reducer: appReducer)
 
 @main
 struct TestReduxUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(store)
         }
     }
 }
